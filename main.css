@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 93vh;
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#addBtn:hover{
+   background-color: rgb(251, 53, 4);
+   transition: ease 0.6s;
+}
+#inputValue{
+outline: none;
+font-size: 1rem;
+}
+#todoApp{
+    min-height: 60vh;
+}
+#list ul li{
+    color: #000;
+    list-style: none;
+    padding: 5px;
+   
+}
+li{
+    box-shadow: rgb(243, 129, 100) 1.95px 1.95px 2.6px;
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    
+}
+#date{
+    font-size: 14px;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
